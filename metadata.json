@@ -1,0 +1,7 @@
+{
+  "name": "Paws & Care Veterinary Clinic",
+  "description": "A modern, compassionate veterinary clinic website featuring advanced medical services and a care-focused user experience.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
