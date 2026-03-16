@@ -20,7 +20,7 @@ export default function About() {
                 <Users size={14} className="text-brand-accent" />
                 <span>Our Story & Mission</span>
               </div>
-              <h1 className="text-5xl md:text-8xl font-display font-extrabold leading-tight text-brand-primary">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-extrabold leading-tight text-brand-primary break-words">
                 Driven by <span className="text-brand-ink">Love</span>,<br />Guided by Science.
               </h1>
               <p className="text-lg md:text-xl text-brand-muted leading-relaxed max-w-xl">

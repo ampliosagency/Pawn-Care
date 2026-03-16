@@ -19,10 +19,10 @@ export default function Contact() {
               <MessageSquare size={14} className="text-brand-accent" />
               <span>Get in Touch with Us</span>
             </div>
-            <h1 className="text-6xl md:text-8xl font-display font-extrabold leading-tight text-brand-primary">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-extrabold leading-tight text-brand-primary break-words">
               Let's Talk About<br />Your <span className="text-brand-ink italic font-light">Pet's Health</span>.
             </h1>
-            <p className="text-xl text-brand-muted leading-relaxed max-w-2xl">
+            <p className="text-base sm:text-lg md:text-xl text-brand-muted leading-relaxed max-w-2xl">
               Have a question or want to schedule an appointment? Our friendly team is here to help you and your pet.
             </p>
           </div>
@@ -120,7 +120,7 @@ export default function Contact() {
             </div>
 
             <div className="space-y-12">
-              <div className="bg-brand-secondary p-12 rounded-[60px] text-white space-y-10 relative overflow-hidden shadow-2xl">
+              <div className="bg-brand-secondary p-6 sm:p-8 md:p-12 rounded-[30px] md:rounded-[60px] text-white space-y-8 md:space-y-10 relative overflow-hidden shadow-2xl">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-brand-primary/20 rounded-bl-full" />
                 <h3 className="text-3xl font-display font-bold">Direct Contact</h3>
                 <div className="space-y-8">

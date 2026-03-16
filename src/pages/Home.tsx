@@ -81,7 +81,7 @@ export default function Home() {
                 <span>Compassionate Care for Your Best Friend</span>
               </div>
               
-              <h1 className="text-5xl md:text-8xl font-display font-extrabold leading-[1.1] text-brand-primary">
+              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-extrabold leading-[1.1] text-brand-primary break-words">
                 Modern Care.<br />
                 <span className="text-brand-ink">Timeless Love.</span>
               </h1>

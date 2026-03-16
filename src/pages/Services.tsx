@@ -62,10 +62,10 @@ export default function Services() {
               <Shield size={14} className="text-brand-accent" />
               <span>Full-Spectrum Veterinary Excellence</span>
             </div>
-            <h1 className="text-6xl md:text-8xl font-display font-extrabold leading-tight text-brand-primary">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-extrabold leading-tight text-brand-primary break-words">
               Comprehensive <span className="text-brand-ink">Care</span><br />for Every Need.
             </h1>
-            <p className="text-xl text-brand-muted leading-relaxed max-w-2xl">
+            <p className="text-base sm:text-lg md:text-xl text-brand-muted leading-relaxed max-w-2xl">
               From routine wellness exams to advanced surgical procedures, we offer a full spectrum of veterinary services designed to keep your pet healthy at every stage of life.
             </p>
           </div>

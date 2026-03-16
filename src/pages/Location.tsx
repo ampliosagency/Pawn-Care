@@ -11,10 +11,10 @@ export default function Location() {
               <MapPin size={14} className="text-brand-accent" />
               <span>Our Modern Facility</span>
             </div>
-            <h1 className="text-6xl md:text-8xl font-display font-extrabold leading-tight text-brand-primary">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-extrabold leading-tight text-brand-primary break-words">
               Visit Our <span className="text-brand-ink font-handwritten italic">Clinic</span>.
             </h1>
-            <p className="text-xl text-brand-muted leading-relaxed max-w-2xl">
+            <p className="text-base sm:text-lg md:text-xl text-brand-muted leading-relaxed max-w-2xl">
               Conveniently located in the heart of Animal Valley, our modern facility is designed to be a stress-free environment for both you and your pets.
             </p>
           </div>
@@ -41,7 +41,7 @@ export default function Location() {
                   </div>
                   <div>
                     <h3 className="text-2xl font-display font-bold text-brand-primary mb-2">Business Hours</h3>
-                    <div className="grid grid-cols-2 gap-x-12 gap-y-3 text-brand-muted font-medium">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-3 text-brand-muted font-medium">
                       <p>Mon - Fri:</p><p>8:00 AM - 8:00 PM</p>
                       <p>Saturday:</p><p>9:00 AM - 5:00 PM</p>
                       <p>Sunday:</p><p className="text-brand-primary font-bold">Emergency Only</p>
@@ -66,7 +66,7 @@ export default function Location() {
                 </button>
               </div>
 
-              <div className="bg-brand-primary p-12 rounded-[40px] text-white relative overflow-hidden">
+              <div className="bg-brand-primary p-6 sm:p-8 md:p-12 rounded-[30px] md:rounded-[40px] text-white relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-brand-primary/20 rounded-bl-full" />
                 <h4 className="text-2xl font-display font-bold mb-4">Parking Information</h4>
                 <p className="opacity-70 leading-relaxed">
@@ -75,7 +75,7 @@ export default function Location() {
               </div>
             </div>
 
-            <div className="rounded-[60px] overflow-hidden h-[700px] shadow-2xl relative group">
+            <div className="rounded-[30px] md:rounded-[60px] overflow-hidden h-[420px] sm:h-[560px] md:h-[700px] shadow-2xl relative group">
               <img 
                 src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80&w=1200" 
                 alt="Map location" 
